@@ -1,4 +1,8 @@
-# GridNext
+# Optimizing Gridnext
+1. Added data augmentation to increase generalizability of the model
+2. Initialized the spot classifier *f* using KimiaNet, a trained network for histopathology image classification using the topology of DenseNet with four dense blocks trained with histopathology images from the TCGA repository instead of natural images.
+
+## Original documentation 
 
 Convolutional neural network architecture for supervised registration of barcoded spatial transcriptomics (ST) data. 
 
